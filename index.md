@@ -1,76 +1,10 @@
 ---
 permalink: /
-title: Jekyll Minimalist
+title: Scanleft Blog
 ---
-
-by [Roman Zolotarev](https://www.romanzolotarev.com/)
-
-This is an minimalist website boilerplate powered by [GitHub Pages][pages].
-There are just [three small files][source].
-
-You can create your own website like this in few minutes without installing
-anything or touching command line. All you need is your GitHub account (or
-email) and few minutes.
 
 # Quick Start
 
-1. [View source of this site on GitHub][source].
-1. Click on **Fork** button.
-1. You may need to **Sign in** (or **Create an account**).
-1. Go to **Settings** of your new repository and rename it to
-   `USERNAME.github.io`, where `USERNAME` is your username on GitHub.
-1. Check (on **Settings** page) that **GitHub Pages** is enabled.
-1. Your site should be available at:
-
-```
-http://USERNAME.github.io/
-```
-
-# Add your pages
-
-1. Click on **Create new file** in your new repository.
-1. Type-in file name, e.g. `about.md`
-1. Put some file content like this:
-
-```
----
-title: About
----
-
-This site is about nothing.
-```
-
-It is important to use front matter with `title` in every file. The new page
-should be available at: 
-
-```
-http://USERNAME.github.io/about
-``` 
-
-(based on its file name).
-
-# Custom domain (optional)
-
-Add `CNAME` file to your repository with your domain name. For example:
-
-```
-www.romanzolotarev.com
-```
-
-Then add `CNAME` record to DNS zone of your domain that points to
-`USERNAME.github.io`. For example:
-
-```
-;; CNAME Records
-www.romanzolotarev.com. 300 IN  CNAME romanzolotarev.github.io.
-```
-
-Now your site should be available at your domain name. In case of those
-examples at: 
-
-```
-http://www.romanzolotarev.com/
-```
 
 # Install on your computer (optional)
 
